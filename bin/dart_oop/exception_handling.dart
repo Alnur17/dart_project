@@ -33,9 +33,9 @@ main(){
 
 void sum(int a, int b){
   throw TimeoutException('Time Out');
-  throw SocketException('Socket exception');
-  throw Exception('Unexpected scenario');
-  print(a+b) ;
+  // throw SocketException('Socket exception');
+  // throw Exception('Unexpected scenario');
+  // print(a+b) ;
 }
 
 class Student{
