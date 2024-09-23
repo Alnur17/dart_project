@@ -4,7 +4,7 @@ void main(){
   print(calculateTotal(order));
 }
 
-double calculateTotal(order){
+double calculateTotal(List<String> order){
   const pizzaPrices = {
     'margherita': 5.5,
     'pepperoni': 7.5,
